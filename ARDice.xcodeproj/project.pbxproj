@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB70789427B09F3600802E0F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DB70789327B09F3600802E0F /* FocusEntity */; };
+		DB70789627B0A3DB00802E0F /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DB70789527B0A3DB00802E0F /* Dice.usdz */; };
+		DBD424AA27B098540004C37A /* ARDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD424A927B098540004C37A /* ARDiceApp.swift */; };
+		DBD424AC27B098540004C37A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD424AB27B098540004C37A /* ContentView.swift */; };
+		DBD424AE27B0985E0004C37A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD424AD27B0985E0004C37A /* Assets.xcassets */; };
+		DBD424B127B0985E0004C37A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD424B027B0985E0004C37A /* Preview Assets.xcassets */; };
+		DBD424BB27B0985E0004C37A /* ARDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD424BA27B0985E0004C37A /* ARDiceTests.swift */; };
+		DBD424C527B0985E0004C37A /* ARDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD424C427B0985E0004C37A /* ARDiceUITests.swift */; };
+		DBD424C727B0985E0004C37A /* ARDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD424C627B0985E0004C37A /* ARDiceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD424B727B0985E0004C37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4249E27B098540004C37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD424A527B098540004C37A;
+			remoteInfo = ARDice;
+		};
+		DBD424C127B0985E0004C37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD4249E27B098540004C37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD424A527B098540004C37A;
+			remoteInfo = ARDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB70789527B0A3DB00802E0F /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Dice.usdz; path = ../../../Downloads/Dice.usdz; sourceTree = "<group>"; };
+		DBD424A627B098540004C37A /* ARDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD424A927B098540004C37A /* ARDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceApp.swift; sourceTree = "<group>"; };
+		DBD424AB27B098540004C37A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBD424AD27B0985E0004C37A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD424B027B0985E0004C37A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBD424B627B0985E0004C37A /* ARDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD424BA27B0985E0004C37A /* ARDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceTests.swift; sourceTree = "<group>"; };
+		DBD424C027B0985E0004C37A /* ARDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD424C427B0985E0004C37A /* ARDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceUITests.swift; sourceTree = "<group>"; };
+		DBD424C627B0985E0004C37A /* ARDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD424A327B098540004C37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB70789427B09F3600802E0F /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424B327B0985E0004C37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424BD27B0985E0004C37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD4249D27B098540004C37A = {
+			isa = PBXGroup;
+			children = (
+				DBD424A827B098540004C37A /* ARDice */,
+				DBD424B927B0985E0004C37A /* ARDiceTests */,
+				DBD424C327B0985E0004C37A /* ARDiceUITests */,
+				DBD424A727B098540004C37A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD424A727B098540004C37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD424A627B098540004C37A /* ARDice.app */,
+				DBD424B627B0985E0004C37A /* ARDiceTests.xctest */,
+				DBD424C027B0985E0004C37A /* ARDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD424A827B098540004C37A /* ARDice */ = {
+			isa = PBXGroup;
+			children = (
+				DB70789527B0A3DB00802E0F /* Dice.usdz */,
+				DBD424A927B098540004C37A /* ARDiceApp.swift */,
+				DBD424AB27B098540004C37A /* ContentView.swift */,
+				DBD424AD27B0985E0004C37A /* Assets.xcassets */,
+				DBD424AF27B0985E0004C37A /* Preview Content */,
+			);
+			path = ARDice;
+			sourceTree = "<group>";
+		};
+		DBD424AF27B0985E0004C37A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBD424B027B0985E0004C37A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBD424B927B0985E0004C37A /* ARDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD424BA27B0985E0004C37A /* ARDiceTests.swift */,
+			);
+			path = ARDiceTests;
+			sourceTree = "<group>";
+		};
+		DBD424C327B0985E0004C37A /* ARDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD424C427B0985E0004C37A /* ARDiceUITests.swift */,
+				DBD424C627B0985E0004C37A /* ARDiceUITestsLaunchTests.swift */,
+			);
+			path = ARDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD424A527B098540004C37A /* ARDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD424CA27B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDice" */;
+			buildPhases = (
+				DBD424A227B098540004C37A /* Sources */,
+				DBD424A327B098540004C37A /* Frameworks */,
+				DBD424A427B098540004C37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDice;
+			packageProductDependencies = (
+				DB70789327B09F3600802E0F /* FocusEntity */,
+			);
+			productName = ARDice;
+			productReference = DBD424A627B098540004C37A /* ARDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD424B527B0985E0004C37A /* ARDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD424CD27B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDiceTests" */;
+			buildPhases = (
+				DBD424B227B0985E0004C37A /* Sources */,
+				DBD424B327B0985E0004C37A /* Frameworks */,
+				DBD424B427B0985E0004C37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD424B827B0985E0004C37A /* PBXTargetDependency */,
+			);
+			name = ARDiceTests;
+			productName = ARDiceTests;
+			productReference = DBD424B627B0985E0004C37A /* ARDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD424BF27B0985E0004C37A /* ARDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD424D027B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDiceUITests" */;
+			buildPhases = (
+				DBD424BC27B0985E0004C37A /* Sources */,
+				DBD424BD27B0985E0004C37A /* Frameworks */,
+				DBD424BE27B0985E0004C37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD424C227B0985E0004C37A /* PBXTargetDependency */,
+			);
+			name = ARDiceUITests;
+			productName = ARDiceUITests;
+			productReference = DBD424C027B0985E0004C37A /* ARDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD4249E27B098540004C37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DBD424A527B098540004C37A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DBD424B527B0985E0004C37A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DBD424A527B098540004C37A;
+					};
+					DBD424BF27B0985E0004C37A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DBD424A527B098540004C37A;
+					};
+				};
+			};
+			buildConfigurationList = DBD424A127B098540004C37A /* Build configuration list for PBXProject "ARDice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD4249D27B098540004C37A;
+			packageReferences = (
+				DB70789227B09F3600802E0F /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = DBD424A727B098540004C37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD424A527B098540004C37A /* ARDice */,
+				DBD424B527B0985E0004C37A /* ARDiceTests */,
+				DBD424BF27B0985E0004C37A /* ARDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD424A427B098540004C37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD424B127B0985E0004C37A /* Preview Assets.xcassets in Resources */,
+				DBD424AE27B0985E0004C37A /* Assets.xcassets in Resources */,
+				DB70789627B0A3DB00802E0F /* Dice.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424B427B0985E0004C37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424BE27B0985E0004C37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD424A227B098540004C37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD424AC27B098540004C37A /* ContentView.swift in Sources */,
+				DBD424AA27B098540004C37A /* ARDiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424B227B0985E0004C37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD424BB27B0985E0004C37A /* ARDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD424BC27B0985E0004C37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD424C727B0985E0004C37A /* ARDiceUITestsLaunchTests.swift in Sources */,
+				DBD424C527B0985E0004C37A /* ARDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD424B827B0985E0004C37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD424A527B098540004C37A /* ARDice */;
+			targetProxy = DBD424B727B0985E0004C37A /* PBXContainerItemProxy */;
+		};
+		DBD424C227B0985E0004C37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD424A527B098540004C37A /* ARDice */;
+			targetProxy = DBD424C127B0985E0004C37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBD424C827B0985E0004C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD424C927B0985E0004C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD424CB27B0985E0004C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARDice/Preview Content\"";
+				DEVELOPMENT_TEAM = G4W68G8GFR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD424CC27B0985E0004C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARDice/Preview Content\"";
+				DEVELOPMENT_TEAM = G4W68G8GFR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Augmented Reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD424CE27B0985E0004C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDice.app/ARDice";
+			};
+			name = Debug;
+		};
+		DBD424CF27B0985E0004C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDice.app/ARDice";
+			};
+			name = Release;
+		};
+		DBD424D127B0985E0004C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARDice;
+			};
+			name = Debug;
+		};
+		DBD424D227B0985E0004C37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD424A127B098540004C37A /* Build configuration list for PBXProject "ARDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD424C827B0985E0004C37A /* Debug */,
+				DBD424C927B0985E0004C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD424CA27B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD424CB27B0985E0004C37A /* Debug */,
+				DBD424CC27B0985E0004C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD424CD27B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD424CE27B0985E0004C37A /* Debug */,
+				DBD424CF27B0985E0004C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD424D027B0985E0004C37A /* Build configuration list for PBXNativeTarget "ARDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD424D127B0985E0004C37A /* Debug */,
+				DBD424D227B0985E0004C37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB70789227B09F3600802E0F /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB70789327B09F3600802E0F /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB70789227B09F3600802E0F /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DBD4249E27B098540004C37A /* Project object */;
+}
