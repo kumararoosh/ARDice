@@ -80,36 +80,36 @@ struct RealityKitView: UIViewRepresentable {
             count += 1
             
             
-            let boxMaterial = SimpleMaterial(color: color, isMetallic: true)
-            let diceEntity = ModelEntity(mesh: box, materials: [boxMaterial])
-//            let diceEntity = try! ModelEntity.loadModel(named: "Dice")
-//            let size = diceEntity.visualBounds(relativeTo: diceEntity).extents
-//            let boxShape = ShapeResource.generateBox(size: size)
-//            diceEntity.collision = CollisionComponent(shapes: [boxShape])
-//            diceEntity.physicsBody = PhysicsBodyComponent(
-//                massProperties: .init(shape: boxShape, mass: 50),
-//                material: nil,
-//                mode: .dynamic
-//            )
-//            diceEntity.scale = [0.1, 0.1, 0.1]
-//            diceEntity.position = focusEntity.position
-            diceEntity.setPosition([-0.3 - (0.1 * Float(count)), -1, -2 ], relativeTo: nil)
-            debugPrint(focusEntity.position)
+//            let boxMaterial = SimpleMaterial(color: color, isMetallic: true)
+//            let diceEntity = ModelEntity(mesh: box, materials: [boxMaterial])
+            let diceEntity = try! ModelEntity.loadModel(named: "Dice")
+            let size = diceEntity.visualBounds(relativeTo: diceEntity).extents
+            let boxShape = ShapeResource.generateBox(size: size)
+            diceEntity.collision = CollisionComponent(shapes: [boxShape])
+            diceEntity.physicsBody = PhysicsBodyComponent(
+                massProperties: .init(shape: boxShape, mass: 50),
+                material: nil,
+                mode: .dynamic
+            )
+            diceEntity.scale = [0.1, 0.1, 0.1]
+            diceEntity.position = focusEntity.position
+//            diceEntity.setPosition([-0.3 - (0.1 * Float(count)), -1, -2 ], relativeTo: nil)
+//            debugPrint(focusEntity.position)
             
             
             anchor.addChild(diceEntity)
             
-//            let planeMesh = MeshResource.generatePlane(width: 2, depth: 2)
-//            let material = SimpleMaterial(color: .init(white: 1.0, alpha: 0.1), isMetallic: false)
-//            let planeEntity = ModelEntity(mesh: planeMesh, materials: [material])
-//            planeEntity.position = focusEntity.position
-//            planeEntity.physicsBody = PhysicsBodyComponent(massProperties: .default, material: nil, mode: .static)
-//            planeEntity.collision = CollisionComponent(shapes: [.generateBox(width: 2, height: 0.001, depth: 2)])
-//            planeEntity.position = focusEntity.position
-//            anchor.addChild(planeEntity)
+            let planeMesh = MeshResource.generatePlane(width: 2, depth: 2)
+            let material = SimpleMaterial(color: .init(white: 1.0, alpha: 0.1), isMetallic: false)
+            let planeEntity = ModelEntity(mesh: planeMesh, materials: [material])
+            planeEntity.position = focusEntity.position
+            planeEntity.physicsBody = PhysicsBodyComponent(massProperties: .default, material: nil, mode: .static)
+            planeEntity.collision = CollisionComponent(shapes: [.generateBox(width: 2, height: 0.001, depth: 2)])
+            planeEntity.position = focusEntity.position
+            anchor.addChild(planeEntity)
             
-//            diceEntity.addForce([0,2,0], relativeTo: nil)
-//            diceEntity.addTorque([Float.random(in: 0 ... 0.4), Float.random(in: 0 ... 0.4), Float.random(in: 0 ... 0.4)], relativeTo: nil)
+            diceEntity.addForce([0,2,0], relativeTo: nil)
+            diceEntity.addTorque([Float.random(in: 0 ... 0.4), Float.random(in: 0 ... 0.4), Float.random(in: 0 ... 0.4)], relativeTo: nil)
             
         }
     }
